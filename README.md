@@ -14,7 +14,11 @@ so as you can see the difference between when it shows as a computer or laptop t
 
 Nav Bar in desktop and mobile version:
 Before:
+
+
 <img width="664" alt="Screenshot 2024-02-01 at 22 35 01" src="https://github.com/zahrahali1/week-2-professional-portfolio-challenge/assets/103753424/68421c3b-d6d4-44f4-be33-9d8ece505036">
 
 After: 
+
+
 <img width="486" alt="Screenshot 2024-02-01 at 22 36 23" src="https://github.com/zahrahali1/week-2-professional-portfolio-challenge/assets/103753424/b2ccdb4d-af1d-487d-8bb8-c63556043410">
