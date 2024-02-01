@@ -32,16 +32,16 @@ body {
   }
   
   nav a {
-    
-    background-color: #d8a47f;
-    display: flex;
-    justify-content: flex-end;
-    color: #13293d;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-    justify-content: right;
-    justify-content: flex-end;
+  display: flex;
+  background-color: #d8a47f;
+  display: flex;
+  justify-content: flex-end;
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: right;
+  justify-content: f;
   }
   
   main {
@@ -60,6 +60,7 @@ body {
     justify-content: center;
     padding: 0 20px;
   }
+
  .card-icon{
   font-size: 28px;
   background: #d8a47f;
@@ -67,8 +68,10 @@ body {
   height: 60px;
   text-align: center;
   border-radius: 50%;
-  transition: 0.3s linear;
  }
+
+
+
   section {
     flex: 1 1 0;
     padding-right: 5%;
@@ -133,13 +136,6 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  main,
-  nav {
-    flex-direction: column;
-  }
-}
-
   .one {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: 900;
@@ -188,14 +184,42 @@ body {
     color: #b9c6ae;
     background-color: #13293d;
   }
+  @media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+    
+    @media screen and (max-width: 760px) {
+      .contact-info{
+        flex-direction: column;
+      }
+    }
   
-
-   @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
+      .card {
+        width: 50%;
+      }
+    }
+  
+@media screen and (max-width: 768px) {
   main,
-  nav {
+  nav,
+  .product {
     flex-direction: column;
   }
 }
+
+  .card{
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+  nav{
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+  }
+   
     section {
       padding-right: 0;
     }
@@ -204,3 +228,4 @@ body {
       width: 100%;
       text-align: center;
     }
+  }
