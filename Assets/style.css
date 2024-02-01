@@ -24,26 +24,23 @@ body {
     font-size: 150%;
   }
   
-  nav ul {
+  nav {
     display: flex;
     background-color: #d8a47f;
     display: flex;
     justify-content: flex-end;
+  
   }
   
   nav a {
-  display: flex;
-  background-color: #d8a47f;
-  display: flex;
-  justify-content: flex-end;
-  color: #13293d;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-  justify-content: right;
-  justify-content: f;
-  }
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: right;
+    justify-content: fle;
   
+  }
   main {
     display: flex;
     flex: 1 1 0;
@@ -184,10 +181,6 @@ body {
     color: #b9c6ae;
     background-color: #13293d;
   }
-  @media screen and (max-width: 768px) {
-    main {
-      flex-direction: column;
-    }
     
     @media screen and (max-width: 760px) {
       .contact-info{
@@ -200,32 +193,17 @@ body {
         width: 50%;
       }
     }
-  
-@media screen and (max-width: 768px) {
-  main,
-  nav,
-  .product {
-    flex-direction: column;
-  }
-}
+    @media screen and (max-width: 768px) {
+      main,
+      nav,
+      .product {
+        flex-direction: column;
+      }
 
-  .card{
-    width: 100%;
-    max-width: 200px;
-    margin: 10px 0;
-  }
-  nav{
-    width: 100%;
-    max-width: 500px;
-    margin: 10px 0;
-  }
-   
-    section {
-      padding-right: 0;
-    }
+      .card {
+        display: none;
+        align-items: center;
+      }
+
   
-    aside {
-      width: 100%;
-      text-align: center;
     }
-  }
