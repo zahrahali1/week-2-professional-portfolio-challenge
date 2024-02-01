@@ -12,8 +12,7 @@ I have added sample of images of work I have done previously in this bootcamp an
 When I resize the page or view the site on various screens and devices I am presented with a responsive layout that adapts to my viewport
 so as you can see the difference between when it shows as a computer or laptop to a mobile phone and tablet. When I make the size smaller for example the navigation bars changes to a different layout to when you see it when you view it on a laptop. 
 
-Nav Bar in desktop and mobile version:
-Before:
+Nav Bar in desktop and mobile version Before:
 
 
 <img width="664" alt="Screenshot 2024-02-01 at 22 35 01" src="https://github.com/zahrahali1/week-2-professional-portfolio-challenge/assets/103753424/68421c3b-d6d4-44f4-be33-9d8ece505036">
